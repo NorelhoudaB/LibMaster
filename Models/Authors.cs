@@ -2,8 +2,8 @@
 {
     public class Authors
     {
-        public int AuthorId { get; set; }
+        public int AuthorsId { get; set; }
         public string Name { get; set; }
-        //public ICollection<Book> Books { get; set; } = new List<Book>();
+        public ICollection<Books> Books { get; set; } = new List<Books>();
     }
 }
